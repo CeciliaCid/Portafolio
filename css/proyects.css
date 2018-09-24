@@ -1,0 +1,43 @@
+.dividor{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.13);
+    height: 1px;
+    margin-bottom: 2em;
+}
+.tittle01{
+    text-align: center;
+}
+.name{
+    font-size: 90px;
+}
+.centrar{
+    text-align: center;
+    padding-bottom: 2em;
+}
+b{
+    color: #02C39A;
+}
+.colorB {
+    --color: #028090;
+    --hover: #02C39A;
+  }
+
+.dis{
+    display: contents;
+}
+.imageMe{
+    width: 200px;
+    background-image: url(../img/perfil.png);
+    background-position: center;
+    background-size: cover;
+}
+.circle{
+    background-image: url(../img/perfil.png);
+    background-size: cover;
+    
+    border-radius: 50%;
+    height: 12em;
+    width: 12em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}

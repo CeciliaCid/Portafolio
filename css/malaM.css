@@ -1,0 +1,17 @@
+.header {
+    padding: 2em;
+    background-image: url(../img/sublimationPrint.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.prot{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10em;
+    background-image: url(../img/prototipo-baja.png);
+    background-size: cover;
+    background-position: top;
+}
+img{
+    margin-top: 20px;
+}

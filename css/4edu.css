@@ -1,0 +1,21 @@
+.header {
+    padding: 2em;
+    background-image: url(../img/4edu-inicio.png);
+    background-position: center;
+    background-size: cover;
+}
+b{
+    color: #02C39A;
+}
+.colorB {
+    --color: #028090;
+    --hover: #02C39A;
+  }
+
+  .flow{
+    margin-top: 20px;
+    padding: 10em;
+    background-image: url(../img/flowmap-4edu-c.png);
+    background-size: cover;
+    background-position: top;
+}

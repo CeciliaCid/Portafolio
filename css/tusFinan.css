@@ -1,0 +1,9 @@
+.header {
+    padding: 2em;
+    background-image: url(../img/tusFinanzas-inicio.png);
+    background-position: center;
+    background-size: cover;
+}
+.name{
+    font-size: 60px;
+}
