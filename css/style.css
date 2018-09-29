@@ -1,6 +1,13 @@
 body {
     background-color: #EEEEFF;
 }
+.space{
+    margin-bottom: 0px;
+}
+.name{
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
 .nameNav{
     width: 5em;
 }
@@ -78,7 +85,7 @@ button:focus {
 h1 {
     color: #EEEEFF;
     font-family: 'Quicksand', sans-serif;
-    font-size: 55px;
+    font-size: 4.5em;
 }
 
 h2 h1 {
@@ -122,22 +129,85 @@ footer {
 section {
     padding-bottom: 5em;
 }
-
+.sectionTalk{
+    padding-top: 8em;
+}
+.sectionColor{
+    background-color: #02809012;
+}
+.sectionSpace{
+    padding-top: 7em;
+    padding-bottom: 10em;
+}
+.rowSpace{
+    margin-bottom: 50px;
+}
+.far {
+    font-size: 20px;
+}
+.fab{
+    font-size: 20px;
+}
 .list-group-item {
     background-color: #103847;
     color: #EEEEFF;
 }
-
+.pWOS{
+    margin-bottom: 0px;
+}
 .dividor{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.13);
     height: 1px;
     margin-bottom: 2em;
 }
+.dividorT{
+    height: 1px;
+    margin-bottom: 4em;
+}
 .centrar{
     text-align: center;
     padding-bottom: 2em;
 }
+/*
+estilos de proyecto preview
+*/
+.container-proyect{
+    max-width: 1160px;
+}
+.proyects{
+    justify-content: center;
+    display: flex;
+}
+.proyect{
+    
+    height: 340px; 
+    justify-content: center;
+    transition: all 0.4s ease;
+}
+.proyect:hover{
+    box-shadow: 0 10px 20px #c7cad1;
+	transform: translate(0, -5px);
+}
+.img4edu{
+    background-image: url(../img/4edu-Card.png);
+    background-size: cover;
+    background-position: center;
+}
+.pre-proyecto{
+    flex-basis: 50%;
+    flex-shrink: 0;
+    overflow: hidden;
+    position: relative;
+}
+.detalles-proyecto{
+    background-color: white;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+
+
 /*
 Botones
 */
@@ -147,6 +217,8 @@ Botones
   }
   .colorB {
     box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
+    margin-right: 10px;
+    margin-left: 10px;
   }
   .colorB:hover, .colorB:focus {
     box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);

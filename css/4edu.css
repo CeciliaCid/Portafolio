@@ -19,3 +19,7 @@ b{
     background-size: cover;
     background-position: top;
 }
+.frame4edu{
+    justify-content: center;
+    display: inline-grid;
+}
