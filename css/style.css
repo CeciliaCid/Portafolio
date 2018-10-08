@@ -1,12 +1,17 @@
 body {
-    background-color: #EEEEFF;
+    background-color: rgb(235, 235, 235);
 }
 .space{
     margin-bottom: 0px;
+    font-size: 2.5em;
+}
+.spaceButton{
+    margin-bottom: 3.5rem;
 }
 .name{
     margin-top: 15px;
     margin-bottom: 0px;
+    font-size: 4em;
 }
 .nameNav{
     width: 5em;
@@ -31,6 +36,7 @@ body {
 
 .navbar-light .navbar-brand {
     color: #EEEEFF;
+    margin-left: 16px;
 }
 
 .bg-light {
@@ -61,12 +67,22 @@ button:focus {
     padding-left: 20px;
     padding-right: 20px;
 }
+.navbar-light .navbar-toggler {
+    /* color: rgba(0,0,0,.5); */
+    border-color: #02c39a;
+}
+.fa .fa-navicon {
+    color:white;
+  }
+
 
 .header {
     padding: 2em;
-    background-image: url(../img/fondo-inicio02.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0)), url(../img/fondo-inicio02.png);
     background-position: center;
     background-size: cover;
+    position: relative;
+    height: 100vh;
 }
 .recuadro{
     background-color: #02C39A;
@@ -80,6 +96,12 @@ button:focus {
 
 .text-muted {
     color: #02C39A !important;
+}
+a{
+    color:#02C39A;
+}
+a:hover{
+    color: #EEEEFF;
 }
 
 h1 {
@@ -97,8 +119,17 @@ h2 h1 {
     padding-bottom: 10em;
     color: #EEEEFF;
     text-shadow: #00000061 0.1em 0.1em 0.4em;
-    font-weight: bold;
-    
+    font-weight: bold; 
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.subTittleCard{
+    font-weight: 600;
+    color: #028090;
+}
+.detallCard{
+    font-weight: 40;
+    font-size: 0.9em;
 }
 
 .dis{
@@ -113,19 +144,12 @@ h2 h1 {
 .circle{
     background-image: url(../img/perfil.png);
     background-size: cover;
-    
     border-radius: 50%;
     height: 12em;
     width: 12em;
     margin-top: 2em;
     margin-bottom: 2em;
 }
-footer {
-    background-color: #103847;
-    padding: 2em;
-
-}
-
 section {
     padding-bottom: 5em;
 }
@@ -141,12 +165,6 @@ section {
 }
 .rowSpace{
     margin-bottom: 50px;
-}
-.far {
-    font-size: 20px;
-}
-.fab{
-    font-size: 20px;
 }
 .list-group-item {
     background-color: #103847;
@@ -169,8 +187,28 @@ section {
     text-align: center;
     padding-bottom: 2em;
 }
+/*   ----------------------------------- FOOTER-----------------------------------------*/
+footer {
+    background-color: #103847;
+    padding: 2em;
+}
+
+.far {
+    font-size: 20px;
+}
+.fab{
+    font-size: 20px;
+}
+.mail{
+    color: #02C39A;
+    font-size: 2em;
+}
+.footerText{
+    color: #EEEEFF;
+}
+
 /*
-estilos de proyecto preview
+----------------------------------------- estilos de proyecto preview ------------------------------
 */
 .container-proyect{
     max-width: 1160px;
@@ -209,7 +247,7 @@ estilos de proyecto preview
 
 
 /*
-Botones
+--------------------------------- Botones ---------------------------------------
 */
 .colorB {
     --color: #028090;
