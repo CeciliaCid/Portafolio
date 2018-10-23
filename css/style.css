@@ -35,7 +35,7 @@ body {
 }
 
 .navbar-light .navbar-brand {
-    color: #EEEEFF;
+    color: rgb(235, 235, 235);
     margin-left: 16px;
 }
 
@@ -50,16 +50,16 @@ button:focus {
 }
 
 .navbar-light .navbar-nav .active>.nav-link {
-    color: #EEEEFF;
+    color: rgb(235, 235, 235);
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #EEEEFF;
+    color: rgb(235, 235, 235);
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #EEEEFF;
+    color: rgb(235, 235, 235);
 }
 .navbar-nav{
     background-color: #02809063;
@@ -101,11 +101,11 @@ a{
     color:#02C39A;
 }
 a:hover{
-    color: #EEEEFF;
+    color: rgb(235, 235, 235);
 }
 
 h1 {
-    color: #EEEEFF;
+    color: white;
     font-family: 'Quicksand', sans-serif;
     font-size: 4.5em;
 }
@@ -117,7 +117,7 @@ h2 h1 {
 .tittle01{
     padding-top: 5em;
     padding-bottom: 10em;
-    color: #EEEEFF;
+    color: white;
     text-shadow: #00000061 0.1em 0.1em 0.4em;
     font-weight: bold; 
     padding-left: 0px;
@@ -151,7 +151,7 @@ h2 h1 {
     margin-bottom: 2em;
 }
 section {
-    padding-bottom: 5em;
+    padding-bottom: 11em;
 }
 .sectionTalk{
     padding-top: 8em;
@@ -168,7 +168,7 @@ section {
 }
 .list-group-item {
     background-color: #103847;
-    color: #EEEEFF;
+    color: white;
 }
 .pWOS{
     margin-bottom: 0px;
@@ -204,7 +204,7 @@ footer {
     font-size: 2em;
 }
 .footerText{
-    color: #EEEEFF;
+    color: white;
 }
 
 /*
@@ -271,7 +271,7 @@ footer {
     box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
   }
   .offset {
-    --color: #EEEEFF;
+    --color: white;
     --hover: #02C39A;
   }
   button {
@@ -280,7 +280,7 @@ footer {
   }
   button:hover, button:focus {
     border-color: var(--hover);
-    color: #EEEEFF;
+    color: white;
   }
   button {
     background: none;
