@@ -15,139 +15,100 @@
 </head>
 
 <body>
-
-  <section class="header">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand col-lg-3 col-8" href="index.html"><img src="img/name.png" class="img-fluid nameNav" alt=""></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon">
-          <i class="fa fa-navicon"></i>
-        </span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Portafolio
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="4edu.html">4edu</a>
-              <a class="dropdown-item" href="mala-madre-store.html">Mala Madre Store</a>
-              <a class="dropdown-item" href="tus-finanzas.html">Tus Finanzas App</a>
-            </div>
-          </li>
-          <li class="nav-item">
+  <section class="ceci-header text-center">
+    <div class="ceci-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <a class="masthead-brand" href="index.html"><img src="img/name-navbar2.png" class="img-fluid nameNav" alt=""></a>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link active" href="index.html">Inicio</a>
             <a class="nav-link" href="#about">Sobre Mi</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="mailto:ccid.montero@gmail.com">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <div class="container">
-      <div class="row d-flex justify-content-center">
-        <div class="tittle01  col-12">
-          <h1 class="name">
-            Hola, soy Cecilia Cid
-          </h1>
-          <h3 class="spaceButton">
-            Diseñadora UX e Ilustradora
-          </h3>
-          <a href="#proyects"><button class="offset">Ver mi Trabajo</button></a>
+            <a class="nav-link" href="#contact">Contacto</a>
+          </nav>
         </div>
+      </header>
+    </div>
+    <div class="hero">
+      <div class="hero-inner">
+        <h1 class="">Hola, soy Cecilia Cid</h1>
+        <h3 class="spaceButton">
+          Diseñadora UX e Ilustradora
+        </h3>
+        <p class="lead">
+            <a href="#projects" class="btn btn-lg btn-secondary button">
+                <span>Ver Mis Proyectos</span>
+              </a>
+         
+        </p>
+        
       </div>
     </div>
   </section>
-  <section id="proyects">
+
+  <section class="projects" id="projects">
     <div class="container">
-      <div class="tittle02">
-        <h2>
-          Bienvenido a mis proyectos
-        </h2>
+      <div class="title02">
+        <h2> Mis Proyectos</h2>
       </div>
-      <!--
-        <a href="4edu.html" class="">
-        <div class="row proyect">
-      
-      <div class="col-md-4 img4edu " >
 
-      </div>
-      <div class="col-md-4 detalles-proyecto ">
-        <h2 class="titulo">4edu</h2>
-
-        <p class="detalle card-text">Desarrollo de una Red Social con una tematica educativa.</p>
-      </div>
-    </div>
+      <a href="wezpot.html">
+        <div class="project-container">
+          <div class="project-preview">
+            <img src="img/wezpot-Card.png">
+          </div>
+          <div class="project-details">
+            <div class="metadata card-text detallCard">2018 | UX </div>
+            <div class="title">WeZpot</div>
+            <div class="subtitle">Pagina Web</div>
+            <div class="body">Rediseñar Pagina Web, para que el usuario pueda gestionar
+              el pago de su membresía y pagina donde puedan visualizar los espacios asociados. Redefinir registro
+              de membresías, asi como también crear viaje de usuario. </div>
+          </div>
+        </div>
       </a>
-      -->
-
-
-
-      <div class="card-deck">
-        <div class="card isShady">
-          <a href="4edu.html">
-            <img class="card-img-top" src="img/4edu-Card.png" alt="Card image cap">
-          </a>
-
-          <div class="card-body">
-            <p class="card-text detallCard"> 2018 | UX & Front-End</p>
-            <h4 class="card-title">4edu Social</h4>
-            <p class="card-text subTittleCard">
-              Sitio Web
-            </p>
-            <P class="card-text">
-              Desarrollo de una Red Social con una tematica educativa. Desarrollada para compartir tus metas de aprendizaje con otros, así como también desafíos con las trivias disponibles.
-            </P>
+      <a href="colmena.html">
+        <div class="project-container">
+          <div class="project-preview">
+            <img src="img/colmena-card.png">
           </div>
-          <div class="card-footer">
-            <a href="4edu.html"> <small class="text-muted">Ver Proyecto →</small></a>
+          <div class="project-details">
+            <div class="metadata">2018 | UX </div>
+            <div class="title">Colmena</div>
+            <div class="subtitle">Sucursal Virtual</div>
+            <div class="body">Rediseño de Sucursal Virtual para Isapre Colmena en Hackathon junto a HavasGroup</div>
           </div>
         </div>
-
-        <div class="card isShady">
-          <a href="mala-madre-store.html"><img class="card-img-top" src="img/mMS-Card.png" alt="Card image cap"> </a>
-
-          <div class="card-body">
-              <p class="card-text detallCard"> 2018 | UX</p>
-            <h4 class="card-title">Mala Madre Store</h4>
-            <p class="card-text subTittleCard">
-              Sitio Web
-            </p>
-            <p class="card-text">
-              Solución y prototipado de tipo Marketplace para emprendimiento.
-            </p>
+      </a>
+      <a href="tus-finanzas.html">
+        <div class="project-container">
+          <div class="project-preview">
+            <img src="img/tusFinanzas-Card.png">
           </div>
-          <div class="card-footer">
-            <a href="mala-madre-store.html"><small class="text-muted">Ver Proyecto →</small> </a>
-
+          <div class="project-details">
+            <div class="metadata">2018 | UX </div>
+            <div class="title">Tus Finanzas</div>
+            <div class="subtitle">App Mobil </div>
+            <div class="body">Rediseño de aplicación movil de finanzas para android e IOS  </div>
           </div>
         </div>
-
-        <div class="card isShady">
-          <a href="tus-finanzas.html"><img class="card-img-top" src="img/tusFinanzas-Card.png" alt="Card image cap"></a>
-          <div class="card-body">
-              <p class="card-text detallCard"> 2018 | UX</p>
-            <h4 class="card-title">Tus Finanzas</h4>
-            <p class="card-text subTittleCard"> App Mobil</p>
-            <p class="card-text">
-              Rediseño de Aplicación Financiera. Adecuandola a un mayor alcance de usuarios.
-            </p>
+      </a>
+      <a href="mala-madre-store.html">
+        <div class="project-container">
+          <div class="project-preview">
+            <img src="img/mMS-Card.png">
           </div>
-          <div class="card-footer">
-            <a href="tus-finanzas.html"><small class="text-muted">Ver Proyecto →</small> </a>
+          <div class="project-details">
+            <div class="metadata">2018 | UX </div>
+            <div class="title">Mala Madre Store</div>
+            <div class="subtitle">Marketplace</div>
+            <div class="body">Solución y prototipado de tipo Marketplace para emprendimiento.</div>
           </div>
         </div>
-      </div>
+      </a>
     </div>
   </section>
 
-  <section id="about">
+  <section class="about" id="about">
     <div class="container">
       <div class="">
         <div class="col centrar">
@@ -159,27 +120,38 @@
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class=" col col-lg-8">
+        <div class=" col col-lg-9">
           <p>
-            Soy UX Designer e Ilustradora Digital Profesional con 3 años de experiencia en el área de Diseño. Actualmente finalicé un Bootcamp en Laboratoria, en el cual me gradué como UX Designer. Ahí he aprendido lo valioso del trabajo en equipo, así como también, el desarrollo de Investigación con Usuarios, Arquitectura de la Información y Diseño Visual, además de manejo de prototipados en Figma y Marvel. También me han entregado las herramientas necesarias para la toma de decisiones que requiere un Diseñador de Experiencia de Usuario.
+            Soy UX Designer e Ilustradora Digital Profesional con 3 años de experiencia en el área de Diseño.
+            Actualmente finalicé un Bootcamp en Laboratoria, en el cual me gradué como UX Designer. Ahí he aprendido lo
+            valioso del trabajo en equipo, así como también, el desarrollo de Investigación con Usuarios, Arquitectura
+            de la Información y Diseño Visual, además de manejo de prototipados en Figma y Marvel. También me han
+            entregado las herramientas necesarias para la toma de decisiones que requiere un Diseñador de Experiencia
+            de Usuario.
           </p>
           <p>
-            Soy una persona motivada, entusiasta y autodidacta, y me gustaría seguir creciendo a nivel profesional. A futuro, me gustaría enfocar mis conocimientos en el área de videojuegos, donde he trabajado con anterioridad.
+            Soy una persona motivada, entusiasta y autodidacta, y me gustaría seguir creciendo a nivel profesional. A
+            futuro, me gustaría enfocar mis conocimientos en el área de videojuegos, donde he trabajado con
+            anterioridad.
           </p>
         </div>
       </div>
       <div class="row justify-content-center">
         <div class="col dis">
-          <a href="src/Curriculum.pdf" target="_blank"> <button class="colorB">Curriculum</button></a>
+            <a href="src/Curriculum.pdf" class="btn btn-lg btn-secondary button">
+                <span>Curriculum</span>
+              </a>
+         
         </div>
       </div>
     </div>
   </section>
-  <section class="container-fluid sectionColor">
+
+  <section class="container-fluid Contact" id="contact">
     <div class="container">
       <div class="row justify-content-center sectionTalk">
-        <div class="col col-lg-8 centrar">
-          <h2>¡Sigamos en contacto!</h2>
+        <div class="col col-lg-9 ">
+          <h2 class="centrar">¡Sigamos en contacto!</h2>
           <p>
             ¿Quieres discutir ideas sobre algún proyecto? ¿Tienes algo en mente? o si simplemente quieres hablar,
             ¡Déjame un mensaje! Me encantaría charlar contigo.
@@ -201,69 +173,34 @@
 
 
   </section>
-  <!--
-  <section>
-  <div class="container">
-    <div class="row centrar">
-      <div class="col centrar">
-        <h2>Habilidades</h2>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class=" col-6 col-lg-2 col-md-3">
-        <img src="img/progress-photo.png" class="img-fluid" alt="">
-      </div>
-      <div class="col-6 col-lg-2 col-md-3">
-        <img src="img/progress-illus.png" class="img-fluid" alt="">
-      </div>
-      <div class="col-6 col-lg-2 col-md-3">
-        <img src="img/progress-html.png" class="img-fluid" alt="">
-      </div>
-      <div class="col-6 col-lg-2 col-md-3">
-        <img src="img/progress-css.png" class="img-fluid" alt="">
-      </div>
-      <div class="col-6 col-lg-2 col-md-3">
-        <img src="img/progress-prot.png" class="img-fluid" alt="">
-      </div>
-    </div>
-  </div>
-</section>
--->
-
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-9 col-12">
-          <h5 class="footerText">© Cecilia Cid</h5>
-          <a href="mailto:ccid.montero@gmail.com">
-            <button class="offset"> <i class="far fa-envelope"></i> </button>
-          </a>
-          <a href="https://www.behance.net/bessieli">
-            <button class="offset"> <i class="fab fa-behance-square"></i> </button>
-          </a>
-          <a href="http://www.linkedin.com/in/cecilia-cid">
-            <button class="offset"> <i class="fab fa-linkedin"></i></button>
-          </a>
-        </div>
-        <div class="col-sm-3 col-12 ">
-          <h5 class="footerText">Proyectos</h5>
-          <p><a href="4edu.html">4edu Red Social</a></p>
-          <p><a href="mala-madre-store.html"> Mala Madre Store</a></p>
-          <p><a href="tus-finanzas.html">Tus Finanzas App</a></p>
-        </div>
 
 
+    <footer>
+      <div class="inner">
+          <div class="me">
+            <h5 class="footerText">© Cecilia Cid</h5>
+            <a href="mailto:ccid.montero@gmail.com" target="_blank">
+              <i class="far fa-envelope"></i>
+            </a>
+            <a href="https://www.behance.net/bessieli" target="_blank">
+              <i class="fab fa-behance-square"></i>
+            </a>
+            <a href="http://www.linkedin.com/in/cecilia-cid" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
       </div>
+    </footer>
+ 
 
-    </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"></script>
-  </footer>
 
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

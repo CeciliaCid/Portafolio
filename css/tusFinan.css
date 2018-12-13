@@ -3,7 +3,10 @@
     background-image: url(../img/tusFinanzas-inicio.png);
     background-position: center;
     background-size: cover;
+    position: relative;
+    height: 100vh;
 }
 .name{
     font-size: 60px;
 }
+

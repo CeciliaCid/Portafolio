@@ -2,7 +2,9 @@
     padding: 2em;
     background-image: url(../img/sublimationPrint.jpg);
     background-position: center;
-    background-size: cover;
+background-size: cover;
+position: relative;
+height: 100vh;
 }
 .prot{
     
