@@ -20,6 +20,40 @@ a:hover {
 }
 
 /* Botones */
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  -webkit-transform: translateY(-0.25em);
+          transform: translateY(-0.25em);
+}
+
+.raise {
+  --color: #ffffff;
+  --hover: #02C39A;
+}
+.bCV{
+  --color: #02C39A;
+  --hover: #fff;
+}
+
+button {
+  color: var(--color);
+  transition: 0.25s;
+}
+button:hover, button:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 1em;
+}
+
 .button
 {
   
@@ -414,10 +448,7 @@ img{
 /*
 *  About
 */
-.about{
-  background-color: #f2f3f5;
-  padding: 80px;
-}
+
 .circle{
   background-image: url(../img/perfil.png);
   background-size: cover;
@@ -438,7 +469,9 @@ img{
  */
 .Contact{
   background-color: #02809012;
-  padding: 80px;
+  margin-top: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 .mail{
   color: #02C39A;
