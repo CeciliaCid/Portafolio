@@ -125,12 +125,6 @@ button {
 
 
 
-.me {
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-}
 
 .me .fab {
   font-size: 1.75rem;
@@ -492,6 +486,7 @@ img{
  footer {
   background-color: #103847;
   padding: 80px;
+  text-align: center;
 }
 
 .footerText{
